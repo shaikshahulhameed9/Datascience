@@ -1,4 +1,4 @@
-Neural Network for Image Recognition
+Neural Network for Image Recognition:
 This project demonstrates a simple Neural Network built from scratch using NumPy that learns to recognize binary image patterns representing the letters A, B, and C.
 
 🧠 Project Overview
@@ -43,3 +43,4 @@ Integrate visualization tools to show neuron activations
 Author: Shahul Hameed Shaik
 Contact: www.linkedin.com/in/skshahulhameed
 Tags: #Python #NumPy #MachineLearning #NeuralNetworks #DataScience
+
