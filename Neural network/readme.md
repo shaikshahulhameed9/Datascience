@@ -1,32 +1,45 @@
-Neural Network Classifier – Letters A, B, and C
-📌 Project Overview
+Neural Network for Image Recognition
+This project demonstrates a simple Neural Network built from scratch using NumPy that learns to recognize binary image patterns representing the letters A, B, and C.
 
-This project demonstrates a simple neural network built from scratch using NumPy that learns to recognize binary image patterns of the letters A, B, and C.
-It’s part of the “Neural Network for Image Recognition” assignment in Module 11, and the goal is to understand how forward propagation, backpropagation, and weight updates actually work under the hood.
+🧠 Project Overview
+The goal of this project is to understand the core concepts of neural networks without relying on deep learning frameworks.
+All computations — including weight initialization, forward propagation, backpropagation, and gradient descent — are implemented manually using NumPy.
 
-🧩 Data
-No external dataset is used.
-Each letter (A, B, C) is represented by a 5×6 binary grid (30 pixels) where
-1 = pixel on, 0 = pixel off.
-These are manually defined as small NumPy arrays inside the notebook.
+⚙️ Features
+Fully manual implementation of a feedforward neural network
+Binary pattern recognition for letters A, B, and C
 
-⚙️ Model Architecture
-Input Layer: 30 neurons (one for each pixel)
-Hidden Layer: 10 neurons (sigmoid activation)
-Output Layer: 3 neurons (one per class – A, B, C)
+Custom functions for:
+Forward and backward passes
+Sigmoid activation
+Error calculation and weight updates
+Visualization of the network’s learning progress
 
-Activation: Sigmoid
-Loss Function: Mean Squared Error (MSE)
-Optimizer: Manual Gradient Descent
-Learning Rate: 0.5
+📊 Technologies Used
+Python 3
+NumPy
+Matplotlib (optional, for visualization)
 
-🔁 Training
-Implemented full forward + backward propagation manually
-Updated weights using gradient descent
-Tracked loss and accuracy across 2000 epochs
-Visualized results using Matplotlib
+🚀 How to Run
 
-📊 Results
-The network successfully classifies all three letters after training.
-Both loss and accuracy curves show clear learning progress.
-Even though the dataset is tiny, it gives solid hands-on understanding of the math behind neural networks.
+Clone this repository
+git clone https://github.com/yourusername/NeuralNetwork-ImageRecognition.git
+cd NeuralNetwork-ImageRecognition
+
+Run the notebook
+jupyter notebook program.ipynb
+Observe the training process and pattern recognition results.
+
+🎯 Learning Outcomes
+Gained practical understanding of how neural networks learn and adjust weights
+Built intuition on gradient descent and error minimization
+Strengthened foundations in data preprocessing and matrix operations
+
+💡 Future Enhancements
+Extend the model to recognize more characters
+Experiment with deeper architectures or different activation functions
+Integrate visualization tools to show neuron activations
+
+Author: Shahul Hameed Shaik
+Contact: www.linkedin.com/in/skshahulhameed
+Tags: #Python #NumPy #MachineLearning #NeuralNetworks #DataScience
